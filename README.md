@@ -5,8 +5,10 @@ GraphQL is an open-source data query and manipulation language for APIs and a qu
 http://localhost:3000/graphql
 
 query {
-  myGraphqlData {
+
+  myGraphqlData 
+  {
     id, name, email
-    
   }
+  
 }
